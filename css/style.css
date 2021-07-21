@@ -1,0 +1,53 @@
+body
+{
+	background-color: #f6e0b5;
+}
+
+a:link, a:visited
+	{
+		color: #f0e2a8;
+		background-color: #c68642;
+		text-decoration: none;
+		padding: 15px;
+		width: 17.5%;
+		text-align: center;
+		display: inline-block;
+		border-radius: 10px;
+		font-family: lucida fax;
+	}
+
+a:hover
+	{
+		color: #317873;
+		background-color: #e8ca93;
+		text-decoration: underline;
+		font-family: lucida fax;
+	}
+
+a:active
+	{
+		color: white;
+		background-color: #8d5524;
+		text-decoration: underline;
+	}
+
+img 
+	{
+		padding-top: 2px;
+	}
+
+h1 
+	{
+		text-align: center;
+		font-family: 'Dancing Script', cursive;
+	}
+
+.zoom
+	{
+		transition: transform 0.5s;
+	}
+
+.zoom:hover
+	{
+		transform: scale(1.1);
+	}
